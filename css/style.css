@@ -1,0 +1,280 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --black: #212121;
+  --light-black: #757575;
+  --grey: #2f303a;
+  --secondary-font: 'Raleway' sans-serif;
+  --main-font: 'Roboto' sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.button-request {
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-request:hover {
+  color: green;
+  background-color: #ffffff;
+}
+
+.button-request:focus {
+  color: green;
+  background-color: #ffffff;
+}
+
+.top-page {
+  color: var(--black);
+  width: 42px;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.top-page:hover {
+  color: var(--blue);
+}
+.top-page:focus {
+  color: var(--blue);
+}
+
+.mail {
+  color: var(--light-black);
+  width: 135px;
+  height: 16px;
+  top: 32px;
+  left: 1097px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.mail:hover {
+  color: var(--blue);
+}
+.mail:focus {
+  color: var(--blue);
+}
+
+.tel {
+  color: var(--light-black);
+  width: 113px;
+  height: 16px;
+  top: 32px;
+  left: 1272px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.tel:hover {
+  color: var(--blue);
+}
+.tel:focus {
+  color: var(--blue);
+}
+
+.bk1 {
+  background-color: var(--grey);
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+}
+
+.ttl {
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.ftr {
+  background-color: var(--grey);
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+}
+
+.adrs {
+  color: var(--white);
+}
+
+.info {
+  color: var(--light-black);
+}
+
+.what-we-do {
+  width: 1170px;
+  height: 386px;
+  top: 969px;
+  left: 215px;
+}
+
+.title1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.image1 {
+  width: 370px;
+  height: 294px;
+  top: 1061px;
+  left: 215px;
+}
+
+.image2 {
+  width: 370px;
+  height: 294px;
+  top: 1061px;
+  left: 615px;
+}
+
+.image3 {
+  width: 370px;
+  height: 294px;
+  top: 1061px;
+  left: 1015px;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  top: 1449px;
+}
+
+.title2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.webstudio {
+  color: var(--blue);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.studio {
+  color: var(--black);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.studioo {
+  color: var(--white);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.info:hover {
+  color: var(--blue);
+}
+.info:focus {
+  color: var(--blue);
+}
+.info {
+  width: 231px;
+  height: 16px;
+  top: 2244px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.infoo {
+  width: 231px;
+  height: 16px;
+  top: 2272px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--light-black);
+}
+.infoo:hover {
+  color: var(--blue);
+}
+.infoo:focus {
+  color: var(--blue);
+}
+.imagee {
+  width: 270px;
+  height: 260px;
+  top: 1635px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+}
+.all {
+  background: #f5f4fa;
+  color: var(--black);
+  cursor: pointer;
+}
+.all:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+.ltm {
+  width: 370px;
+}
+.stodio {
+  color: var(--white);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}

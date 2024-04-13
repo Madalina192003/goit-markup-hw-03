@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofoliu</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,144 +19,163 @@
   <body>
     <!--Header section-->
 
-    <header>
-      <div>
-        <a href="index.html"
-          ><span class="webstudio">Web</span
-          ><span class="studio">Studio</span></a
-        >
+    <header class="hdr">
+      <div class="container">
+        <div>
+          <a href="index.html"
+            ><span class="webstudio">Web</span
+            ><span class="studio">Studio</span></a
+          >
+        </div>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="index.html" class="top-page">Studio</a></li>
+            <li><a href="portofolio.html" class="top-page">Portofolio</a></li>
+            <li><a href="#" class="top-page">Contacts</a></li>
+          </ul>
+        </nav>
+        <div>
+          <a href="mailto:info@devstudio.com" class="mail"
+            >info@devstudio.com</a
+          >
+        </div>
+        <div><a href="tel:+12127724150" class="tel">+1 212-772-4150</a></div>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="top-page">Studio</a></li>
-          <li><a href="portofolio.html" class="top-page">Portofolio</a></li>
-          <li><a href="#" class="top-page">Contacts</a></li>
-        </ul>
-      </nav>
-      <div>
-        <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
-      </div>
-      <div><a href="tel:+12127724150" class="tel">+1 212-772-4150</a></div>
     </header>
 
     <main>
-      <button type="button" class="all">All</button>
-      <button type="button" class="all">Web-sites</button>
-      <button type="button" class="all">Apps</button>
-      <button type="button" class="all">Design</button>
-      <button type="button" class="all">Marketing</button>
+      <div class="container">
+        <section>
+          <button type="button" class="all">All</button>
+          <button type="button" class="all">Web-sites</button>
+          <button type="button" class="all">Apps</button>
+          <button type="button" class="all">Design</button>
+          <button type="button" class="all">Marketing</button>
+        </section>
+      </div>
 
       <!--Div 1-->
 
-      <div style="display: flex">
-        <div>
-          <img
-            src="images/imgportofoliu1.jpg"
-            alt="Imagine Laptop"
-            class="ltm"
-          />
-          <p><strong>Technoduck</strong></p>
-          <p>Web-site</p>
-        </div>
+      <div class="container">
+        <div style="display: flex">
+          <div>
+            <img
+              src="images/imgportofoliu1.jpg"
+              alt="Imagine Laptop"
+              class="ltm"
+            />
+            <p><strong>Technoduck</strong></p>
+            <p>Web-site</p>
+          </div>
 
-        <div>
-          <img
-            src="images/imgportofoliu2.jpg"
-            alt="Imagine basket"
-            class="ltm"
-          />
-          <p><strong>Poster New Orlean vs Golden Star</strong></p>
-          <p>Design</p>
-        </div>
-        <div>
-          <img
-            src="images/imgportofoliu3.jpg"
-            alt="Imagine peste"
-            class="ltm"
-          />
-          <p><strong>Seafood Restaurant</strong></p>
-          <p>Apps</p>
+          <div>
+            <img
+              src="images/imgportofoliu2.jpg"
+              alt="Imagine basket"
+              class="ltm"
+            />
+            <p><strong>Poster New Orlean vs Golden Star</strong></p>
+            <p>Design</p>
+          </div>
+          <div>
+            <img
+              src="images/imgportofoliu3.jpg"
+              alt="Imagine peste"
+              class="ltm"
+            />
+            <p><strong>Seafood Restaurant</strong></p>
+            <p>Apps</p>
+          </div>
         </div>
       </div>
 
       <!--Div 2-->
 
-      <div style="display: flex">
-        <div>
-          <img
-            src="images/imgportofoliu4.jpg"
-            alt="Imagine casti"
-            class="ltm"
-          />
-          <p><strong>Project Prime</strong></p>
-          <p>Marketing</p>
-        </div>
+      <div class="container">
+        <div style="display: flex">
+          <div>
+            <img
+              src="images/imgportofoliu4.jpg"
+              alt="Imagine casti"
+              class="ltm"
+            />
+            <p><strong>Project Prime</strong></p>
+            <p>Marketing</p>
+          </div>
 
-        <div>
-          <img
-            src="images/imgportofoliu5.jpg"
-            alt="Imagine cutii"
-            class="ltm"
-          />
-          <p><strong>Project Boxes</strong></p>
-          <p>Apps</p>
-        </div>
-        <div>
-          <img
-            src="images/imgportofoliu6.jpg"
-            alt="Imagine monitor"
-            class="ltm"
-          />
-          <p><strong>Inspiration has no Borders</strong></p>
-          <p>Web-site</p>
+          <div>
+            <img
+              src="images/imgportofoliu5.jpg"
+              alt="Imagine cutii"
+              class="ltm"
+            />
+            <p><strong>Project Boxes</strong></p>
+            <p>Apps</p>
+          </div>
+          <div>
+            <img
+              src="images/imgportofoliu6.jpg"
+              alt="Imagine monitor"
+              class="ltm"
+            />
+            <p><strong>Inspiration has no Borders</strong></p>
+            <p>Web-site</p>
+          </div>
         </div>
       </div>
 
       <!--Div 3-->
 
-      <div style="display: flex">
-        <div>
-          <img
-            src="images/imgportofoliu7.jpg"
-            alt="Imagin revista"
-            class="ltm"
-          />
-          <p><strong>Limited Edition</strong></p>
-          <p>Design</p>
-        </div>
+      <div class="container">
+        <div style="display: flex">
+          <div>
+            <img
+              src="images/imgportofoliu7.jpg"
+              alt="Imagin revista"
+              class="ltm"
+            />
+            <p><strong>Limited Edition</strong></p>
+            <p>Design</p>
+          </div>
 
-        <div>
-          <img
-            src="images/imgportofoliu8.jpg"
-            alt="Imagine eticheta"
-            class="ltm"
-          />
-          <p><strong>Project LAB</strong></p>
-          <p>Marketing</p>
-        </div>
-        <div>
-          <img
-            src="images/imgportofoliu9.jpg"
-            alt="Imagine business"
-            class="ltm"
-          />
-          <p><strong>Growing Business</strong></p>
-          <p>Apps</p>
+          <div>
+            <img
+              src="images/imgportofoliu8.jpg"
+              alt="Imagine eticheta"
+              class="ltm"
+            />
+            <p><strong>Project LAB</strong></p>
+            <p>Marketing</p>
+          </div>
+          <div>
+            <img
+              src="images/imgportofoliu9.jpg"
+              alt="Imagine business"
+              class="ltm"
+            />
+            <p><strong>Growing Business</strong></p>
+            <p>Apps</p>
+          </div>
         </div>
       </div>
     </main>
 
     <!--Footer section-->
-    <footer class="ftr">
-      <a href="#"
-        ><span class="webstudio">Web</span><span class="stodio">Studio</span></a
-      >
-      <address class="adrs">
-        695 Park Ave, NY 10065, USA <br />
-        <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
-        <br />
-        <a href="tel:+12127724150 " class="infoo">+1 212-772-4150</a>
-      </address>
-    </footer>
+    <div class="container">
+      <footer class="ftr">
+        <a href="#"
+          ><span class="webstudio">Web</span
+          ><span class="stodio">Studio</span></a
+        >
+        <address class="adrs">
+          695 Park Ave, NY 10065, USA <br />
+          <a href="mailto:info@devstudio.com" class="info"
+            >info@devstudio.com</a
+          >
+          <br />
+          <a href="tel:+12127724150 " class="infoo">+1 212-772-4150</a>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>

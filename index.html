@@ -21,12 +21,13 @@
 
     <header class="hdr">
       <div class="container">
-        <div>
-          <a href="#"
+        <section>
+          <a href="#" class="logo"
             ><span class="webstudio">Web</span
             ><span class="studio">Studio</span></a
           >
-        </div>
+        </section>
+
         <nav class="header-navigation">
           <ul>
             <li><a href="#" class="top-page">Studio</a></li>
@@ -34,12 +35,13 @@
             <li><a href="#" class="top-page">Contacts</a></li>
           </ul>
         </nav>
+
         <div>
           <a href="mailto:info@devstudio.com" class="mail"
             >info@devstudio.com</a
           >
         </div>
-        <div><a href="tel:+12127724150" class="tel">+1 212-772-4150</a></div>
+        <div><a href="tel:12127724150" class="tel">+1 212-772-4150</a></div>
       </div>
     </header>
 
@@ -56,39 +58,45 @@
       </div>
 
       <!--Div cu info-->
-      <div class="container">
-        <div class="information">
+      <div class="information">
+        <section>
           <h3 class="title-information">
             <strong>ATTENTION TO DETAILS</strong>
           </h3>
-          <p>
+          <p class="details">
             We go into all the details and processes <br />
             of your business to develop <br />
             a customized solution.
           </p>
+        </section>
+        <section>
           <h3><strong>PUNCTUALITY</strong></h3>
-          <p>
+          <p class="details">
             With us, you can feel safe and secure. <br />
             An important principle of the company: <br />
             respect your time and deadlines.
           </p>
+        </section>
+        <section>
           <h3><strong>PLANNING</strong></h3>
-          <p>
+          <p class="details">
             You will be able to observe and participate <br />
             in every phase of solution <br />
             development and implementation.
           </p>
+        </section>
+        <section>
           <h3><strong>MODERN TECHNOLOGIES</strong></h3>
-          <p>
+          <p class="details">
             We use innovative tools to solve <br />
             assigned tasks. It's time to simplify work <br />
             processes.
           </p>
-        </div>
+        </section>
       </div>
 
       <!--Sectiune cu imagini-->
-      <div class="container">
+      <div>
         <h2 class="title1"><strong>What we do</strong></h2>
         <section class="what-we-do">
           <img src="images/img1.jpg" alt="Imagine tastatura" class="image1" />
@@ -107,33 +115,33 @@
 
           <!--Container despre our team-->
 
-          <div style="display: flex">
-            <div>
+          <div class="container-our-team">
+            <div class="card1">
               <img
                 src="images/imagine1.jpg"
                 alt="Christopher Walke"
                 class="imagee"
               />
-              <p>Christopher Walker</p>
-              <p>Product Designer</p>
+              <p class="name"><strong>Christopher Walker</strong></p>
+              <p class="details-our-team">Product Designer</p>
             </div>
 
-            <div>
+            <div class="card2">
               <img src="images/imagine2.jpg" alt="Kylie Evans" class="imagee" />
-              <p>Kylie Evans</p>
-              <p>Frontend Developer</p>
+              <p class="name"><strong>Kylie Evans</strong></p>
+              <p class="details-our-team">Frontend Developer</p>
             </div>
 
-            <div>
+            <div class="card3">
               <img src="images/imagine3.jpg" alt="Ryan Harris" class="imagee" />
-              <p>Ryan Harris</p>
-              <p>Marketing</p>
+              <p class="name"><strong>Ryan Harris</strong></p>
+              <p class="details-our-team">Marketing</p>
             </div>
 
-            <div>
+            <div class="card4">
               <img src="images/imagine4.jpg" alt="Tyler Moore" class="imagee" />
-              <p>Tyler Moore</p>
-              <p>UI Designer</p>
+              <p class="name"><strong>Tyler Moore</strong></p>
+              <p class="details-our-team">UI Designer</p>
             </div>
           </div>
         </section>
@@ -141,21 +149,27 @@
     </main>
 
     <!--Footer section-->
-    <div class="container">
-      <footer class="ftr">
-        <a href="#"
-          ><span class="webstudio">Web</span
-          ><span class="studioo">Studio</span></a
-        >
-        <address class="adrs">
-          695 Park Ave, NY 10065, USA <br />
-          <a href="mailto:info@devstudio.com" class="info"
-            >info@devstudio.com</a
+
+    <footer class="ftr">
+      <div class="container">
+        <section>
+          <a href="#" class="logo2"
+            ><span class="webstoodio">Web</span
+            ><span class="studioo">Studio</span></a
           >
-          <br />
-          <a href="tel:+12127724150 " class="infoo">+1 212-772-4150</a>
-        </address>
-      </footer>
-    </div>
+        </section>
+
+        <div class="ftr-info">
+          <address class="adrs">
+            695 Park Ave, NY 10065, USA <br />
+            <a href="mailto:info@devstudio.com" class="info"
+              >info@devstudio.com</a
+            >
+            <br />
+            <a href="tel:12127724150 " class="infoo">+1 212-772-4150</a>
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
